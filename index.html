@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="hero">
+        <div class="main-container">
+          <!-- <main> -->
+          <div>
+            <h2>Find Your Perfect Stay</h2>
+            <p>
+              Explore unique homes, experiences, and places around the world.
+            </p>
+          </div>
+
+          <!-- Dynamic Landing Page Content -->
+          <form id="searchForm">
+            <label for="location">Location:</label>
+            <input
+              type="text"
+              id="location"
+              placeholder="Enter a city or region"
+            />
+            <input type="submit" value="Search" />
+          </form>
+
+          <!-- Link to Travel Blog (Opens in a new tab) -->
+          <div>
+            <p>
+              Check out our
+              <a
+                href="https://yourtravelblogurl.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Travel Blog</a
+              >
+              for exciting adventures!
+            </p>
+          </div>
+          <!-- </main> -->
+        </div>
+      </div>
+    </section>
+    <div class="slider"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
